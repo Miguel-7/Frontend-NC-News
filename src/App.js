@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./components/Header";
 import { DefaultUserContext } from "./contexts/DefaultUser";
-import "./App.css";
+import "./styling/App.css";
 import ArticlesList from "./components/ArticlesList";
 // import useScreenSize from "./hooks/useScreenSize";
 
