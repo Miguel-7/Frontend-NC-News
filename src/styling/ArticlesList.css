@@ -1,8 +1,10 @@
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
-ul li {
+/* ul  */
+li {
   width: 600px;
   border: 1px solid red;
   padding: 10px;
