@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-list-topics {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  gap: 25px;
+  width: fit-content;
+  margin: 0px auto 50px auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  list-style-type: none;
+  padding: 0;
+}
+
+.link-articles {
+  all: unset;
+}
+
+.link-articles:hover {
+  cursor: pointer;
+  color: #fe7f2d;
+}
+
+.article-card {
+  border-radius: 10px;
+  background-color: #ccff33;
+  color: #233d4d;
+  padding: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articles-list {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 3vh;
+  margin-bottom: 6vh;
+  border-radius: 20px;
+}
